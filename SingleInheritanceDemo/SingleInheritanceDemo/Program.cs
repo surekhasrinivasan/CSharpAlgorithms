@@ -21,5 +21,13 @@ namespace SingleInheritanceDemo
                 Console.WriteLine("Coach");
             }
         }
+
+        class Player : Coach
+        {
+            public void Play()
+            {
+                Console.WriteLine("Play");
+            }
+        }
     }
 }
