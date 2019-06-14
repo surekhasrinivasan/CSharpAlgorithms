@@ -13,5 +13,13 @@ namespace SingleInheritanceDemo
         static void Main(string[] args)
         {
         }
+
+        class Coach
+        {
+            public void coach()
+            {
+                Console.WriteLine("Coach");
+            }
+        }
     }
 }
