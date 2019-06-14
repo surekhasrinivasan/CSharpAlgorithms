@@ -12,6 +12,12 @@ namespace SingleInheritanceDemo
     {
         static void Main(string[] args)
         {
+            Coach c = new Coach();
+            c.coach();
+            Player p = new Player();
+            p.Play();
+            p.coach();
+            Console.ReadKey();
         }
 
         class Coach
