@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelsiusToFahrenheitConversion", "CelsiusToFahrenheitConversion\CelsiusToFahrenheitConversion.csproj", "{6973FC90-3A76-4E8C-BFB6-4B84BE4E3410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6973FC90-3A76-4E8C-BFB6-4B84BE4E3410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6973FC90-3A76-4E8C-BFB6-4B84BE4E3410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6973FC90-3A76-4E8C-BFB6-4B84BE4E3410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6973FC90-3A76-4E8C-BFB6-4B84BE4E3410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95991E88-3477-4DAD-99A1-893B7D84425E}
+	EndGlobalSection
+EndGlobal
