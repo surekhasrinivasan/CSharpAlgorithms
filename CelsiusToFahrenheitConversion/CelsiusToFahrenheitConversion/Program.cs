@@ -11,6 +11,9 @@ namespace CelsiusToFahrenheitConversion
     {
         static void Main(string[] args)
         {
+            int celsius, faren;
+            Console.WriteLine("Enter the Temperature in Celsius: ");
+            celsius = int.Parse(Console.ReadLine());
         }
     }
 }
