@@ -14,6 +14,8 @@ namespace CelsiusToFahrenheitConversion
             int celsius, faren;
             Console.WriteLine("Enter the Temperature in Celsius: ");
             celsius = int.Parse(Console.ReadLine());
+            // Calculate temperature in fahrenheit from celsius
+            faren = (celsius * 9) / 5 + 32;
         }
     }
 }
