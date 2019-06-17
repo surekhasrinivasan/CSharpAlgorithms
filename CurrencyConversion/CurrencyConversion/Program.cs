@@ -35,8 +35,17 @@ namespace CurrencyConversion
                     rupe = euro * valu;
                     Console.WriteLine("{0} Euro equals {1} Rupees", euro, rupe);
                     break;
-
+                case 3:
+                    Double ringgit, rup, value;
+                    Console.WriteLine("Enter the Ringgit Amount : ");
+                    ringgit = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Ringgit Value: ");
+                    value = double.Parse(Console.ReadLine());
+                    rup = ringgit * value;
+                    Console.WriteLine("{0} Ringgit equals {1} Rupees", ringgit, rup);
+                    break;
             }
+            Console.ReadLine();
         }
     }
 }
