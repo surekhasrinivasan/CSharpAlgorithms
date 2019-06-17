@@ -26,6 +26,16 @@ namespace CurrencyConversion
                     rupee = dollar * val;
                     Console.WriteLine("{0} Dollar equals {1} Rupees", dollar, rupee);
                     break;
+                case 2:
+                    Double euro, rupe, valu;
+                    Console.WriteLine("Enter the Euro Amount : ");
+                    euro = Double.Parse(Console.ReadLine());
+                    Console.WriteLine("Enter the Euro value : ");
+                    valu = double.Parse(Console.ReadLine());
+                    rupe = euro * valu;
+                    Console.WriteLine("{0} Euro equals {1} Rupees", euro, rupe);
+                    break;
+
             }
         }
     }
