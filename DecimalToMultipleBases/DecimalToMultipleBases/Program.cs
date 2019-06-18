@@ -11,6 +11,12 @@ namespace DecimalToMultipleBases
     {
         static void Main(string[] args)
         {
+            int num, baseNum;
+
+            Console.WriteLine("Enter a decimal number: ");
+            num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a base: ");
+            baseNum = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
