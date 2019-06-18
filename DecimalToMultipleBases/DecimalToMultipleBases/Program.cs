@@ -13,10 +13,16 @@ namespace DecimalToMultipleBases
         {
             int num, baseNum;
 
-            Console.WriteLine("Enter a decimal number: ");
+            Console.Write("Enter a decimal number: ");
             num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter a base: ");
+            Console.Write("Enter a base: ");
             baseNum = Convert.ToInt32(Console.ReadLine());
+            
+        }
+
+        static void MulBase(int n, int b)
+        {
+
         }
     }
 }
