@@ -18,7 +18,10 @@ namespace DecimalToMultipleBases
             num = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter a base: ");
             baseNum = Convert.ToInt32(Console.ReadLine());
-            
+            Console.Write(num + " converts to ");
+            MulBase(num, baseNum);
+            Console.WriteLine(" Base " + baseNum);
+            Console.ReadLine();
         }
 
         static void MulBase(int n, int b)
