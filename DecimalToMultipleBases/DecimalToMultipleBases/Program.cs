@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,14 @@ namespace DecimalToMultipleBases
 
         static void MulBase(int n, int b)
         {
-
+            Stack Digits = new Stack();
+            do
+            {
+                Digits.Push(n % b);
+                n /= b;
+            } while (n != 0);
+            while(Digits.Count > 0)
+                Console.Write(Digits.Pop());
         }
     }
 }
