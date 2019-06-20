@@ -110,7 +110,27 @@ namespace StarPatternsProgram
             Console.WriteLine("Enter the number of rows: ");
             numb = int.Parse(Console.ReadLine());
 
-            
+            count = numb - 1;
+            for (k = 1; k <= numb; k++)
+            {
+                for (i = 1; i <= count; i++)
+                    Console.Write(" ");
+                count--;
+                for (i = 1; i <= 2 * k - 1; i++)
+                    Console.Write("*");
+                Console.WriteLine();
+            }
+            count = 1;
+            for (k = 1; k <= numb - 1; k++)
+            {
+                for(i=1; i<=count; i++)
+                    Console.Write(" ");
+                count++;
+                for(i=1;i<=2 * (numb - k) -1; i++)
+                    Console.Write("*");
+                Console.WriteLine();
+            }
+            Console.ReadLine();
 
 
 
