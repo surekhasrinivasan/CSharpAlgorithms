@@ -105,6 +105,10 @@ namespace StarPatternsProgram
             }
 
             // Pattern 6
+
+
+            // Pattern 7
+
         }
     }
 }
