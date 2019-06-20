@@ -103,6 +103,8 @@ namespace StarPatternsProgram
                     Console.WriteLine();
                 }
             }
+
+            // Pattern 6
         }
     }
 }
