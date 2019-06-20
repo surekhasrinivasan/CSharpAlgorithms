@@ -48,6 +48,31 @@ namespace StarPatternsProgram
                 }
                 Console.WriteLine();
             }
+
+            // Pattern 4
+
+            int num = 8;
+
+            for(i = 0; i < num; ++i)
+            {
+                for(j = 0; j<=i; ++j)
+                {
+                    Console.Write("*");
+                }
+                if(i != num - 1)
+                {
+                    Console.Write(" ");
+                }
+                else
+                {
+                    Console.Write(" * ");
+                }
+                for(j=0; j <= i; ++j)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
