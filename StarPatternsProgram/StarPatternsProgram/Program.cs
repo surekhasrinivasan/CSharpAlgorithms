@@ -73,6 +73,36 @@ namespace StarPatternsProgram
                 }
                 Console.WriteLine();
             }
+
+            // Pattern 5
+            int number = 7;
+
+            for(i = 0; i < number; i++)
+            {
+                if(i == 0 || i == 6)
+                {
+                    for(j=0; j < number; j++)
+                    {
+                        Console.Write("*");
+                    }
+                    Console.WriteLine();
+                }
+                if(i>=1 && i <= 5)
+                {
+                    for(j=0; j< number; j++)
+                    {
+                        if(j == 0 || j == 6)
+                        {
+                            Console.Write("*");
+                        }
+                        else if(j >= 1 && j <= 5)
+                        {
+                            Console.Write(" ");
+                        }
+                    }
+                    Console.WriteLine();
+                }
+            }
         }
     }
 }
