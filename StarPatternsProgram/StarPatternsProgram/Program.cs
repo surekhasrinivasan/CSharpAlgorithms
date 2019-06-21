@@ -9,8 +9,8 @@ namespace StarPatternsProgram
     // Program to demo different Star Patterns 
     class Program
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             //// Pattern 1
 
             //for(int row = 8; row >=1; --row)
@@ -104,38 +104,48 @@ namespace StarPatternsProgram
             //    }
             //}
 
-            // Pattern 6
+            //// Pattern 6
 
-            int numb, i, k, count = 1;
-            Console.WriteLine("Enter the number of rows: ");
-            numb = int.Parse(Console.ReadLine());
+            //int numb, i, k, count = 1;
+            //Console.WriteLine("Enter the number of rows: ");
+            //numb = int.Parse(Console.ReadLine());
 
-            count = numb - 1;
-            for (k = 1; k <= numb; k++)
-            {
-                for (i = 1; i <= count; i++)
-                    Console.Write(" ");
-                count--;
-                for (i = 1; i <= 2 * k - 1; i++)
-                    Console.Write("*");
-                Console.WriteLine();
-            }
-            count = 1;
-            for (k = 1; k <= numb - 1; k++)
-            {
-                for(i=1; i<=count; i++)
-                    Console.Write(" ");
-                count++;
-                for(i=1;i<=2 * (numb - k) -1; i++)
-                    Console.Write("*");
-                Console.WriteLine();
-            }
-            Console.ReadLine();
-
-
+            //count = numb - 1;
+            //for (k = 1; k <= numb; k++)
+            //{
+            //    for (i = 1; i <= count; i++)
+            //        Console.Write(" ");
+            //    count--;
+            //    for (i = 1; i <= 2 * k - 1; i++)
+            //        Console.Write("*");
+            //    Console.WriteLine();
+            //}
+            //count = 1;
+            //for (k = 1; k <= numb - 1; k++)
+            //{
+            //    for(i=1; i<=count; i++)
+            //        Console.Write(" ");
+            //    count++;
+            //    for(i=1;i<=2 * (numb - k) -1; i++)
+            //        Console.Write("*");
+            //    Console.WriteLine();
+            //}
+            //Console.ReadLine();
 
 
             // Pattern 7
+
+           static void stars(int count)
+        {
+            for (int i = 0; i < count; ++i)
+                Console.Write("*");
+        } 
+
+        static void spaces(int count)
+        {
+            for (int i = 0; i < count; ++i)
+                Console.Write(" ");            
+        }
 
         }
     }
