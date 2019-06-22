@@ -17,6 +17,14 @@ namespace UserDefinedConversionDemo
             Name = name;
             Age = age;
         }
+        public static implicit operator int(Person p) // Convert Person to int
+        {
+            return p.Age;
+        }
+        public static implicit operator Person(int i) // Convert int to Person.
+        {
+            return new Person("Tina", i) // ("Tina" is Latin for "No one".)
+        }
     }
     class Program
     {
