@@ -14,6 +14,7 @@ namespace KnapsackAlgorithm
 
         }
 
+        // main method
         static void Main(string[] args)
         {
         }
