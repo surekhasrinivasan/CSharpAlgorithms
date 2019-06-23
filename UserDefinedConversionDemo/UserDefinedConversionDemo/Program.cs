@@ -23,13 +23,21 @@ namespace UserDefinedConversionDemo
         }
         public static implicit operator Person(int i) // Convert int to Person.
         {
-            return new Person("Tina", i) // ("Tina" is Latin for "No one".)
+            return new Person("Tina", i); // ("Tina" is Latin for "No one".)
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
+            Person person1 = new Person("Mike", 25);
+
+            // convert a Person object to an int.
+            int age = person1;
+            Console.WriteLine("Person Info: {0}, {1}", person1.Name, age);
+            // convert an int to a Person object
+            Person person2 = 35;
+            Console.WriteLine("Person Info: {0}, {1}", person2.Name, person2.Age);
         }
     }
 }
