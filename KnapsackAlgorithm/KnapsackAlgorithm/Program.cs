@@ -31,6 +31,14 @@ namespace KnapsackAlgorithm
         // main method
         static void Main(string[] args)
         {
+            int[] value = { 10, 50, 70 };
+            int[] weight = { 10, 20, 30 };
+            int capacity = 40;
+            int itemsCount = 3;
+
+            int result = KnapSack(capacity, weight, value, itemsCount);
+
+            Console.WriteLine(result);
         }
     }
 }
