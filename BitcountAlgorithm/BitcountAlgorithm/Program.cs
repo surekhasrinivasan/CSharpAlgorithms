@@ -17,7 +17,12 @@ namespace BitcountAlgorithm
             Console.WriteLine(SparseBitcount(0));
             Console.WriteLine(SparseBitcount(1));
             Console.WriteLine(SparseBitcount(int.MaxValue));
-            Console.WriteLine(SparseBitcount(256));            
+            Console.WriteLine(SparseBitcount(256));
+
+            Console.WriteLine(IteratedBitcount(0));
+            Console.WriteLine(IteratedBitcount(1));
+            Console.WriteLine(IteratedBitcount(int.MaxValue));
+            Console.WriteLine(IteratedBitcount(256));
         }
         static int SparseBitcount(int n)
         {
