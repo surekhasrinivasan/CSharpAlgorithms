@@ -29,5 +29,11 @@ namespace BitcountAlgorithm
             }
             return count;
         }
+
+        // Iterated Bitcount algorithm
+
+        // This bitcount is slow, simple and reliable
+
+
     }
 }
