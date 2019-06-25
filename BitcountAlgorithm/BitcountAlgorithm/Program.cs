@@ -17,7 +17,7 @@ namespace BitcountAlgorithm
             Console.WriteLine(SparseBitcount(0));
             Console.WriteLine(SparseBitcount(1));
             Console.WriteLine(SparseBitcount(int.MaxValue));
-            Console.WriteLine(SparseBitcount(256));
+            Console.WriteLine(SparseBitcount(256));            
         }
         static int SparseBitcount(int n)
         {
@@ -34,6 +34,20 @@ namespace BitcountAlgorithm
 
         // This bitcount is slow, simple and reliable
 
+        static int IteratedBitcount(int n)
+        {
+            int test = n;
+            int count = 0;
 
+            while(test != 0)
+            {
+                if((test & 1) == 1)
+                {
+                    count++;
+                }
+                test >>= 1;
+            }
+            return count;
+        }
     }
 }
