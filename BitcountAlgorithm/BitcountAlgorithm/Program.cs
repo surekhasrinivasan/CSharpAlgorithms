@@ -65,7 +65,21 @@ namespace BitcountAlgorithm
 
         static void InitializeBitcounts()
         {
+            _bitcounts = new int[65536];
+            int position1 = -1;
+            int position2 = -1;
 
+            // Loop through all the elements and assign them. 
+            for(int i=1; i< 65536; i++, position1++)
+            {
+                // Adjust the positions we read from.
+                if(position1 == position2)
+                {
+                    position1 = 0;
+                    position2 = i;
+                }
+                _bitcounts[i] = _bitcounts[position1] + 1;
+            }
         }
 
     }
