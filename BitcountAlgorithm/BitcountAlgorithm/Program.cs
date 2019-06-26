@@ -54,5 +54,12 @@ namespace BitcountAlgorithm
             }
             return count;
         }
+
+        // Precomputed bitcount algorithm
+
+        // This program demonstrates the use of a precomputed bitcount lookup table. 
+        // The InitializeBitcounts method uses a logical method to precompute the bits
+        // in the table based on how the binary representation changes.
+
     }
 }
