@@ -82,5 +82,11 @@ namespace BitcountAlgorithm
             }
         }
 
+        static int PrecomputedBitcount(int value)
+        {
+            // Count bits in each half of the 32-bit input number.
+            return _bitcounts[value & 65535] + _bitcounts[(value >> 16) & 65535];
+        }
+
     }
 }
