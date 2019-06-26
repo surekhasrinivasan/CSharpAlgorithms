@@ -61,5 +61,12 @@ namespace BitcountAlgorithm
         // The InitializeBitcounts method uses a logical method to precompute the bits
         // in the table based on how the binary representation changes.
 
+        static int[] _bitcounts; // Lookup table
+
+        static void InitializeBitcounts()
+        {
+
+        }
+
     }
 }
