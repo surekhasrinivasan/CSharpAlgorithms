@@ -23,7 +23,17 @@ namespace BitcountAlgorithm
             Console.WriteLine(IteratedBitcount(1));
             Console.WriteLine(IteratedBitcount(int.MaxValue));
             Console.WriteLine(IteratedBitcount(256));
+
+            // Initialize the lookup table
+            InitializeBitcounts();
+
+            // Get the bitcounts for these values by lookups
+            Console.WriteLine(PrecomputedBitcount(0));
+            Console.WriteLine(PrecomputedBitcount(1));
+            Console.WriteLine(PrecomputedBitcount(int.MaxValue));
+            Console.WriteLine(PrecomputedBitcount(256));
         }
+
         static int SparseBitcount(int n)
         {
             int count = 0;
