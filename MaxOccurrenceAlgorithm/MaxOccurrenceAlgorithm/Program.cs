@@ -16,6 +16,9 @@ namespace MaxOccurrenceAlgorithm
         }
         static void Main(string[] args)
         {
+            int[] array = new int[20] { 3, 6, 8, 5, 3, 5, 7, 6, 4, 3, 2, 3, 5, 7, 6, 4, 3, 4, 5, 7 };
+            Hashtable hs = new Hashtable();
+            MaxOccurrence(array, hs);
         }
     }
 }
