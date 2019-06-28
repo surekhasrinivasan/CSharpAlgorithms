@@ -11,7 +11,16 @@ namespace PrintEvenNumbers
     {
         static void Main(string[] args)
         {
-         
+            Console.WriteLine("Enter a target number: ");
+            int targetnumber = Convert.ToInt32(Console.ReadLine());
+
+            // Two methods to print even numbers
+
+            // 1. Use a FOR or WHILE loop to print the even numbers, until our target number
+            for(int i = 0; i <= targetnumber; i = i + 2)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
