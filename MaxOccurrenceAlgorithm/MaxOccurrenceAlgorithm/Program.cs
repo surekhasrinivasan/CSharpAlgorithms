@@ -39,7 +39,7 @@ namespace MaxOccurrenceAlgorithm
             {
                 Console.WriteLine("{0}, {1}", entry.Key, entry.Value);
             }
-            Console.WriteLine("The common number is: " + mostCommon + "And it appears " + occurences + " times");
+            Console.WriteLine("The common number is: " + mostCommon + " And it appears " + occurences + " times");
         }
 
         static void Main(string[] args)
