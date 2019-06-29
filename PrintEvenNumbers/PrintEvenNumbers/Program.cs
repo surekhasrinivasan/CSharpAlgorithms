@@ -21,6 +21,8 @@ namespace PrintEvenNumbers
             {
                 Console.WriteLine(i);
             }
+
+            // 2. Check if a number is even by dividing it by 2
         }
     }
 }
