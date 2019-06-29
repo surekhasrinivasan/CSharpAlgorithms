@@ -32,6 +32,13 @@ namespace PrintEvenNumbers
             }
 
             // We can also use while loop
+            int start = 0;
+            while (start <= targetnumber)
+            {
+                Console.WriteLine(start);
+                start = start + 2;
+            }
+            Console.ReadLine();
         }
     }
 }
