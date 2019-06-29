@@ -23,6 +23,13 @@ namespace PrintEvenNumbers
             }
 
             // 2. Check if a number is even by dividing it by 2
+            for(int i = 0; i <= targetnumber; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
