@@ -30,6 +30,8 @@ namespace PrintEvenNumbers
                     Console.WriteLine(i);
                 }
             }
+
+            // We can also use while loop
         }
     }
 }
