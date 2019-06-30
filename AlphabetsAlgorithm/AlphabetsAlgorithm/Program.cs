@@ -12,10 +12,19 @@ namespace AlphabetsAlgorithm
         static void Main(string[] args)
         {
             // Loop from 'a' through 'z' (lower case alphabets)
-            for(char alphabet = 'a'; alphabet <= 'z'; alphabet++)
+            for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
             {
-                Console.WriteLine(alphabet);
+                Console.Write(alphabet + " ");
             }
+
+            Console.WriteLine();
+
+            // Another way to print lower case alphabets
+            for (int i = 0; i < 26; i++)
+            {
+                Console.Write(Convert.ToChar(i + (int)'a') + " ");
+            }
+            Console.ReadLine();
         }
     }
 }
