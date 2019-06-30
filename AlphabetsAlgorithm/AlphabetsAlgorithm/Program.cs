@@ -24,6 +24,14 @@ namespace AlphabetsAlgorithm
             {
                 Console.Write(Convert.ToChar(i + (int)'a') + " ");
             }
+
+            Console.WriteLine();
+
+            // Loop from 'A' through 'Z' (upper case alphabets)
+            for(char alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+            {
+                Console.Write(alphabet + " ");
+            }
             Console.ReadLine();
         }
     }
