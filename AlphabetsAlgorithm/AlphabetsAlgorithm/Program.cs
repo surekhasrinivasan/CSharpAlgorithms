@@ -11,6 +11,11 @@ namespace AlphabetsAlgorithm
     {
         static void Main(string[] args)
         {
+            // Loop from 'a' through 'z' (lower case alphabets)
+            for(char alphabet = 'a'; alphabet <= 'z'; alphabet++)
+            {
+                Console.WriteLine(alphabet);
+            }
         }
     }
 }
