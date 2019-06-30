@@ -14,6 +14,14 @@ namespace PrintMultiplicationTable
             Console.WriteLine("Enter the number for which you want to print multiplication table: ");
 
             int num = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("What is your target? 10, 20, 30...");
+            int target = Convert.ToInt32(Console.ReadLine());
+
+            for(int i = 1; i <= target; i++)
+            {
+                int result = num * i;
+            }
         }
     }
 }
