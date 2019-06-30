@@ -21,6 +21,7 @@ namespace PrintMultiplicationTable
             for(int i = 1; i <= target; i++)
             {
                 int result = num * i;
+                Console.WriteLine(num.ToString() + " X "+ i.ToString() + " = " + result.ToString());
             }
         }
     }
