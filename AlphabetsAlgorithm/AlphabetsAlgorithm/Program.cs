@@ -32,7 +32,15 @@ namespace AlphabetsAlgorithm
             {
                 Console.Write(alphabet + " ");
             }
+
+            Console.WriteLine();
+
+            // Another way to print Upper Case Alphabets
+            for(int j = 0; j < 26; j++)
+            {
+                Console.Write(Convert.ToChar(j + (int)'A') + " ");
+            }
             Console.ReadLine();
         }
-    }
+    } 
 }
