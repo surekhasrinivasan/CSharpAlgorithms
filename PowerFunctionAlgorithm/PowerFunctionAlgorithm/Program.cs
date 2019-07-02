@@ -21,6 +21,14 @@ namespace PowerFunctionAlgorithm
             // Prompt the user to enter exponent
             int Exponent = Convert.ToInt32(Console.ReadLine());
 
+            
+
+        }
+
+        // Power Function
+        public static int Power(int Base, int Exponent)
+        {
+
         }
     }
 }
