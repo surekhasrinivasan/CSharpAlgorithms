@@ -22,7 +22,12 @@ namespace PowerFunctionAlgorithm
             int Exponent = Convert.ToInt32(Console.ReadLine());
 
             // call the power method passing its Base and Exponent
-            int Result = Power(Base, Exponent);
+            //int Result = Power(Base, Exponent);
+
+            // In System.Math class there is Pow() static method which is 
+            // very similar to the static Power() method we implemented
+
+            double Result = System.Math.Pow(Base, Exponent);
 
             // print the result 
             Console.WriteLine("Result={0}", Result);
