@@ -21,8 +21,11 @@ namespace PowerFunctionAlgorithm
             // Prompt the user to enter exponent
             int Exponent = Convert.ToInt32(Console.ReadLine());
 
-            
+            // call the power method passing its Base and Exponent
+            int Result = Power(Base, Exponent);
 
+            // print the result 
+            Console.WriteLine("Result={0}", Result);
         }
 
         // Power Function
