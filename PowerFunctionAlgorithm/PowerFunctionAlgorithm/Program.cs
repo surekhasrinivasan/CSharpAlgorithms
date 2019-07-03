@@ -28,7 +28,17 @@ namespace PowerFunctionAlgorithm
         // Power Function
         public static int Power(int Base, int Exponent)
         {
+            // Declare a variable to hold the result 
+            int Result = 1;
 
+            // multiply base number with itself, for
+            // exponentnumber of times
+            for(int i = 1; i <= Exponent; i++)
+            {
+                Result = Result * Base;
+            }
+            // return the Result
+            return Result;
         }
     }
 }
