@@ -27,19 +27,22 @@ namespace SpaceBeforeUpperCaseLetter
             // loop through each character in the string array
             foreach(char character in arrUserInput)
             {
+                // if the character is in uppercase 
                 if (char.IsUpper(character))
                 {
+                    // append space
                     sbOutput.Append(" ");
                 }
+                // append every character to reform the output
                 sbOutput.Append(character);
             }
+            // remove the space at the beginning of the string
             sbOutput.Remove(0, 1);
 
+            // print the output
             Console.WriteLine(sbOutput.ToString());
 
             Console.ReadLine();
-
-
         }
     }
 }
