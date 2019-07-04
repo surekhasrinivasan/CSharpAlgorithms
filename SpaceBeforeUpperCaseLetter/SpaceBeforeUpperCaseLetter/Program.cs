@@ -20,6 +20,26 @@ namespace SpaceBeforeUpperCaseLetter
 
             // Convert the string to character array
             char[] arrUserInput = userInput.ToCharArray();
+
+            // Initialize StringBuilder object for the output
+            StringBuilder sbOutput = new StringBuilder();
+
+            // loop through each character in the string array
+            foreach(char character in arrUserInput)
+            {
+                if (char.IsUpper(character))
+                {
+                    sbOutput.Append(" ");
+                }
+                sbOutput.Append(character);
+            }
+            sbOutput.Remove(0, 1);
+
+            Console.WriteLine(sbOutput.ToString());
+
+            Console.ReadLine();
+
+
         }
     }
 }
