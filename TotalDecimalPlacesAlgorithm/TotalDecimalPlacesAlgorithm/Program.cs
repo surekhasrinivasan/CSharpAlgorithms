@@ -11,9 +11,17 @@ namespace TotalDecimalPlacesAlgorithm
     // Output : 0, 0, 1, 2
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // Create the decimal array for sample test data 
+            decimal[] decimalNumbers = { 1, 1.0M, 1.1M, 1.12M, 1.123M, 1.1100M, 1.010M, 1.001100M };
 
+            // Loop through each decimal number
+            foreach(decimal decimalNumber in decimalNumbers)
+            {
+                // Print the original number and total decimal places
+                Console.WriteLine("Original Decimal Number = {0}, Total Decimal Places={1}", decimalNumber, GetDecimalPartCount(decimalNumber));
+            }
         }
 
         // Function that return the total decimal places
