@@ -13,6 +13,13 @@ namespace TotalDecimalPlacesAlgorithm
     {
         static void Main(string[] args)
         {
+
+        }
+
+        // Function that return the total decimal places
+        private static int GetDecimalPartCount()
+        {
+
         }
     }
 }
