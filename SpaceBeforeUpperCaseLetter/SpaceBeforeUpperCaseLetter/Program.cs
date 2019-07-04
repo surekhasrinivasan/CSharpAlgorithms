@@ -17,6 +17,9 @@ namespace SpaceBeforeUpperCaseLetter
 
             // Read the input from the console
             string userInput = Console.ReadLine();
+
+            // Convert the string to character array
+            char[] arrUserInput = userInput.ToCharArray();
         }
     }
 }
