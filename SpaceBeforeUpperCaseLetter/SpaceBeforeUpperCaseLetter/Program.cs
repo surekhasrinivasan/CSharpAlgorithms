@@ -12,6 +12,11 @@ namespace SpaceBeforeUpperCaseLetter
     {
         static void Main(string[] args)
         {
+            // Prompt user for the input string
+            Console.WriteLine("Enter a string: ");
+
+            // Read the input from the console
+            string userInput = Console.ReadLine();
         }
     }
 }
