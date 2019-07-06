@@ -11,6 +11,10 @@ namespace FindSmallestAndLargestNum
     {
         static void Main(string[] args)
         {
+            // Declare and initialize the integer array
+            int[] NumbersArray = { 102, 34, 89, 12, 187, 29, 111 };
+
+
         }
     }
 }
