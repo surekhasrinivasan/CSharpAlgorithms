@@ -18,6 +18,7 @@ namespace RemoveTrailingZerosAlgorithm
                 Console.WriteLine("Original Decimal Number = {0}, Without Zeros = {1}",
                                     decimalNumber, decimalNumber.ToString("0.####"));
             }
+            Console.ReadLine();
         }
     }
 }
