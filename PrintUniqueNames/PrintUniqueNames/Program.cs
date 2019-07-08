@@ -18,6 +18,18 @@ namespace PrintUniqueNames
 
             // Read the user name list from the console
             string strUserNames = Console.ReadLine();
+
+            // split the string into a string array based on semi colon
+            string[] arrUserNames = strUserNames.Split(';');
+
+            // Use the Distinct() LINQ function to remove duplicates
+            string[] arrUniqueNames = arrUserNames.Distinct().ToArray();
+
+            // Using StringBuilder to concatenate strings is more efficient
+            // than using immutable string objects for better performance
+            StringBuilder sbUniqueUserNames = new StringBuilder();
+
+            
         }
     }
 }
