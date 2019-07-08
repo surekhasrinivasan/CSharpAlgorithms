@@ -23,7 +23,14 @@ namespace CountEmailsByDomain
             // select only the domain part of the emails into a string array, using substring() function
             string[] EmailsDomain = UserEmails.Select(x => x.Substring(x.LastIndexOf("@") + 1)).ToArray();
 
+            // Group the emails by email domain, and select the Domain and respective count
+            var Result = EmailsDomain.GroupBy(x => x).Select(y => new { Domain = y.Key, Count = y.Count() });
 
+            // Finally print the domain name and the emails count
+            foreach(var obj in Result)
+            {
+                Console.WriteLine("Domain = {0} & Count= {1}", obj.Domain, obj.Count);
+            }
         }
     }
 }
