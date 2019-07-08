@@ -29,7 +29,20 @@ namespace PrintUniqueNames
             // than using immutable string objects for better performance
             StringBuilder sbUniqueUserNames = new StringBuilder();
 
-            
+            // Build the string from unique names appending semicolon
+            foreach(string strName in arrUniqueNames)
+            {
+                sbUniqueUserNames.Append(strName + ";");
+            }
+
+            // Remove the extra semi colon in the end
+            sbUniqueUserNames.Remove(sbUniqueUserNames.ToString().LastIndexOf(';'),1);
+
+            // Finally print the unique names
+            Console.WriteLine();
+            Console.WriteLine("Printing names without duplicates");
+            Console.WriteLine(sbUniqueUserNames.ToString());
+            Console.WriteLine();
         }
     }
 }
