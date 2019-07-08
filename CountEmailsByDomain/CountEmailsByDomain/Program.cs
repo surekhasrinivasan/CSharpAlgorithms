@@ -17,6 +17,12 @@ namespace CountEmailsByDomain
             // List of emails separated by semi colon. 
             string UserInputEmails = "aa@xyz.com;cc@abc.com;bb@abc.com;dd@abc.com";
 
+            // Split the string into string array
+            string[] UserEmails = UserInputEmails.Split(';');
+
+            // select only the domain part of the emails into a string array, using substring() function
+            string[] EmailsDomain = UserEmails.Select(x => x.Substring(x.LastIndexOf("@") + 1)).ToArray();
+
 
         }
     }
