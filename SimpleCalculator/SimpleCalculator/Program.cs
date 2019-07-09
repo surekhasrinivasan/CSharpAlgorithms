@@ -16,6 +16,17 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
+
+        }
+
+        public static void Calculate(int SelectedOption)
+        {
+            int Result = 0;
+            Console.WriteLine("Enter your first number: ");
+            int firstNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your second number: ");
+            int secondNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
         }
     }
 }
