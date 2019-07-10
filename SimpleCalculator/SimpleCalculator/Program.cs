@@ -18,6 +18,10 @@ namespace SimpleCalculator
         {
 
         }
+        public void PrintMenu()
+        {
+
+        }
 
         public static void Calculate(int SelectedOption)
         {
