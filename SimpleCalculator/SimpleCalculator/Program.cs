@@ -27,6 +27,26 @@ namespace SimpleCalculator
             Console.WriteLine("Enter your second number: ");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
+
+            switch (SelectedOption)
+            {
+                case 1:
+                    Result = firstNumber + secondNumber;
+                    Console.WriteLine("{0} + {1} = {2}", firstNumber, secondNumber, Result);
+                    break;
+                case 2:
+                    Result = firstNumber - secondNumber;
+                    Console.WriteLine("{0} - {1} = {2}", firstNumber, secondNumber, Result);
+                    break;
+                case 3:
+                    Result = firstNumber * secondNumber;
+                    Console.WriteLine("{0} * {1} = {2}", firstNumber, secondNumber, Result);
+                    break;
+                case 4:
+                    Result = firstNumber / secondNumber;
+                    Console.WriteLine("{0} / {1} = {2}", firstNumber, secondNumber, Result);
+                    break;
+            }
         }
     }
 }
