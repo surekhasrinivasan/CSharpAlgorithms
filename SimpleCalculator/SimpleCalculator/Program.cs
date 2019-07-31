@@ -14,8 +14,10 @@ namespace SimpleCalculator
 
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            string UserSelection = string.Empty;
+
 
         }
         public static void PrintMenu()
