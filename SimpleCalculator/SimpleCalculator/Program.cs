@@ -18,7 +18,32 @@ namespace SimpleCalculator
         {
             string UserSelection = string.Empty;
 
+            do
+            {
+                PrintMenu();
+                int UserChoice = Convert.ToInt32(Console.ReadLine());
+                while (UserChoice < 1 || UserChoice > 4)
+                {
+                    Console.WriteLine("Invalid Option. Try again");
+                    PrintMenu();
+                    Console.WriteLine();
+                    UserChoice = Convert.ToInt32(Console.ReadLine());
+                }
+                Calculate(UserChoice);
 
+                Console.WriteLine("Do you want to continue");
+                UserSelection = Console.ReadLine();
+                while (UserSelection.ToUpper() != "NO" && UserSelection.ToUpper() != "YES")
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Invalid Input - Please type YES or NO");
+                    Console.WriteLine("Do you want to continue");
+                    UserSelection = Console.ReadLine();
+                }
+            }
+            while (UserSelection.ToUpper() != "NO");
+            Console.WriteLine();
+            Console.WriteLine("The program will now terminate");            
         }
         public static void PrintMenu()
         {
