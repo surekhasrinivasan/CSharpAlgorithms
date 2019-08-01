@@ -11,8 +11,10 @@ namespace ExceptionHandlingAtItsBest
 // 2. If the user, enters a very large number, the program should let the user know about the range allowed.
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            string strUserChoice = string.Empty;
+
         }
     }
 }
