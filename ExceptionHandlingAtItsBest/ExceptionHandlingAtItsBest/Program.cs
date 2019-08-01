@@ -15,6 +15,36 @@ namespace ExceptionHandlingAtItsBest
         {
             string strUserChoice = string.Empty;
 
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Please enter first number:");
+                    int FN = Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Please enter first number:");
+                    int SN = Convert.ToInt32(Console.ReadLine());
+
+                    int Total = FN + SN;
+
+                    Console.WriteLine("Total = {0}", Total);
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Invalid Input. Only numbers please.");
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("Only numbers between {0} and {1} are allowed", Int32.MinValue, Int32.MaxValue);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Unknown problem, please contact administrator");
+                }
+
+
+            }
+
         }
     }
 }
