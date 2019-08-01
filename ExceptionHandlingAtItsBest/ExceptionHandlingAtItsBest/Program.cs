@@ -42,9 +42,14 @@ namespace ExceptionHandlingAtItsBest
                     Console.WriteLine("Unknown problem, please contact administrator");
                 }
 
-
+                do
+                {
+                    Console.WriteLine("Do you want to continue - Yes or No?");
+                    strUserChoice = Console.ReadLine();
+                }
+                while (strUserChoice.ToUpper() != "YES" && strUserChoice.ToUpper() != "NO");
             }
-
+            while (strUserChoice.ToUpper() != "NO");
         }
     }
 }
