@@ -24,6 +24,12 @@ namespace ExplicitInterfaceImplementation
     {
         void Method();
     }
-
+    class D:B, I
+    {
+        void I.Method()
+        {
+            Console.WriteLine("Void Method - I");
+        }
+    }
 
 }
