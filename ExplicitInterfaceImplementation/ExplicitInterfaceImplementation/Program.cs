@@ -20,4 +20,10 @@ namespace ExplicitInterfaceImplementation
             Console.WriteLine("Void Method - B");
         }
     }
+    interface I
+    {
+        void Method();
+    }
+
+
 }
