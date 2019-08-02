@@ -9,8 +9,15 @@ namespace ExplicitInterfaceImplementation
     // Program to demo use of Explicit Interface implementation technique to implement void Method
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+        }
+    }
+    class B
+    {
+        public void Method()
+        {
+            Console.WriteLine("Void Method - B");
         }
     }
 }
