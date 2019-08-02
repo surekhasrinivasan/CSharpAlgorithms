@@ -11,6 +11,16 @@ namespace ExplicitInterfaceImplementation
     {
         static void Main()
         {
+            // To call class B Method
+            D d = new D();
+            d.Method();
+
+            // To call the Interface Method
+            I i = new D();
+            i.Method();
+
+            // Another way to call interface method
+            ((I)d).Method();
         }
     }
     class B
