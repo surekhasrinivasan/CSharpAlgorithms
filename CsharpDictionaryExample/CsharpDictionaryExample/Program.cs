@@ -17,6 +17,10 @@ namespace CsharpDictionaryExample
                 [2] = "C#",
                 [3] = "ASP.Net MVC5"
             };
+            foreach(KeyValuePair<int, string> keyValuePair in Books)
+            {
+
+            }
 
         }
     }
