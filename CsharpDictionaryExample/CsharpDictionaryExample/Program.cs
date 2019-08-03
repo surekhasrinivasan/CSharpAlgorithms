@@ -19,9 +19,9 @@ namespace CsharpDictionaryExample
             };
             foreach(KeyValuePair<int, string> keyValuePair in Books)
             {
-
+                Console.WriteLine(keyValuePair.Key + ": "+ keyValuePair.Value + "\n");
             }
-
+            Console.ReadLine();
         }
     }
 }
