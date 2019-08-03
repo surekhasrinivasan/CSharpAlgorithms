@@ -11,6 +11,13 @@ namespace CsharpDictionaryExample
     {
         static void Main(string[] args)
         {
+            var Books = new Dictionary<int, string>()
+            {
+                [1] = "ASP.Net",
+                [2] = "C#",
+                [3] = "ASP.Net MVC5"
+            };
+
         }
     }
 }
