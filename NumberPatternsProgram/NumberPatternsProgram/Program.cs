@@ -12,9 +12,18 @@ namespace NumberPatternsProgram
         static void Main(string[] args)
         {
             // Pyramid Number pattern
-            Console.WriteLine("Enter a number between 1 and 9: ");
+            int num, space;
 
-            int num = Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("Enter a number between 1 and 9: ");
+
+                num = Convert.ToInt32(Console.ReadLine());
+
+                space = num - 1;
+            
+
+            }
         }
     }
 }
