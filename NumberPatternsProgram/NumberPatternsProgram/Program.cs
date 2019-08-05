@@ -41,20 +41,26 @@ namespace NumberPatternsProgram
         //    }
         //}
 
-        // Number pattern 2 
+        //// Number pattern 2 
+        //public static void Main()
+        //{
+        //    int num = 5;
+
+        //    for(int i = 1; i <= num; i++)
+        //    {
+        //        for(int j = 1; j <= i; j++)
+        //        {
+        //            Console.Write(i);
+        //        }
+        //        Console.WriteLine();
+        //    }
+        //    Console.ReadKey();
+        //}
+
+        // Number pattern 3
         public static void Main()
         {
-            int num = 5;
 
-            for(int i = 1; i <= num; i++)
-            {
-                for(int j = 1; j <= i; j++)
-                {
-                    Console.Write(i);
-                }
-                Console.WriteLine();
-            }
-            Console.ReadKey();
         }
     }
 }
