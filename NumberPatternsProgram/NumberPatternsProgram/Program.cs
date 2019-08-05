@@ -54,6 +54,7 @@ namespace NumberPatternsProgram
                 }
                 Console.WriteLine();
             }
+            Console.ReadKey();
         }
     }
 }
