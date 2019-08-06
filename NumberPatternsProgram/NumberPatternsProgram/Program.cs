@@ -64,6 +64,16 @@ namespace NumberPatternsProgram
             int num = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine();
+
+            for(int i = 1; i < num; i++)
+            {
+                for(int j = 1; j <= i; j++)
+                {
+                    Console.Write(j.ToString());
+                    Console.WriteLine();
+                }
+            }
+
         }
     }
 }
