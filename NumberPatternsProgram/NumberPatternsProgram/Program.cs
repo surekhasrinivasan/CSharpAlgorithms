@@ -91,6 +91,14 @@ namespace NumberPatternsProgram
             int n = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine();
+            for(int i = n; i >=0; i--)
+            {
+                for(int j = 1; j <= i; j++)
+                {
+                    Console.Write(j.ToString());
+                }
+            }
+            Console.WriteLine();
         }
     }
 }
