@@ -87,7 +87,10 @@ namespace NumberPatternsProgram
         // Number pattern 4
         public static void Main()
         {
+            Console.WriteLine("Enter a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine();
         }
     }
 }
