@@ -84,30 +84,36 @@ namespace NumberPatternsProgram
         //    Console.WriteLine();
         //}
 
-        // Number pattern 4
+        //// Number pattern 4
+        //public static void Main()
+        //{
+        //    Console.WriteLine("Enter a number: ");
+        //    int n = Convert.ToInt32(Console.ReadLine());
+
+        //    Console.WriteLine();
+        //    for(int i = n; i >=0; i--)
+        //    {
+        //        for(int j = 1; j <= i; j++)
+        //        {
+        //            Console.Write(j.ToString());
+        //        }
+        //        Console.WriteLine();
+        //    }            
+        //    for(int i = 1; i <= n; i++)
+        //    {
+        //        for(int j = 1; j <= i; j++)
+        //        {
+        //            Console.Write(j.ToString());
+        //        }
+        //        Console.WriteLine();
+        //    }
+        //    Console.WriteLine();
+        //}
+
+        // Number Pattern 5
         public static void Main()
         {
-            Console.WriteLine("Enter a number: ");
-            int n = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine();
-            for(int i = n; i >=0; i--)
-            {
-                for(int j = 1; j <= i; j++)
-                {
-                    Console.Write(j.ToString());
-                }
-                Console.WriteLine();
-            }            
-            for(int i = 1; i <= n; i++)
-            {
-                for(int j = 1; j <= i; j++)
-                {
-                    Console.Write(j.ToString());
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
         }
     }
 }
