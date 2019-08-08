@@ -139,7 +139,6 @@ namespace NumberPatternsProgram
                         Console.Write("{0}", q);
                 Console.Write("\n");
             }
-
         }
     }
 }
