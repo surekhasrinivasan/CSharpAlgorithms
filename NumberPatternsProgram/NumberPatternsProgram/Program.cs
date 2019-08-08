@@ -113,6 +113,15 @@ namespace NumberPatternsProgram
         // Number Pattern 5
         public static void Main()
         {
+            int i, j, n, p, q;
+
+            Console.Write("\n\n");
+            Console.Write("Print the Floyd's Triangle: \n");
+            Console.Write("------------------------------");
+            Console.Write("\n\n");
+
+            Console.Write("Input number: ");
+            n = Convert.ToInt32(Console.ReadLine());
 
         }
     }
