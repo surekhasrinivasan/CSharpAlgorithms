@@ -122,6 +122,18 @@ namespace NumberPatternsProgram
 
             Console.Write("Input number: ");
             n = Convert.ToInt32(Console.ReadLine());
+            for(i = 1; i <= n; i++)
+            {
+                if (i % 2 == 0)
+                { 
+                    p = 1; q = 0;
+                }
+                else
+                {
+                    p = 0; q = 1;
+                }
+                
+            }
 
         }
     }
