@@ -132,7 +132,12 @@ namespace NumberPatternsProgram
                 {
                     p = 0; q = 1;
                 }
-                
+                for (j = 1; j <= i; j++)
+                    if (j % 2 == 0)
+                        Console.Write("{0}", p);
+                    else
+                        Console.Write("{0}", q);
+                Console.Write("\n");
             }
 
         }
