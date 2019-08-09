@@ -144,7 +144,12 @@ namespace NumberPatternsProgram
         // Number Pattern 6
         public static void Main()
         {
+            int i, j, rows, k = 1;
 
+            Console.Write("\n\n");
+            Console.Write("Display the pattern like right angle triangle with number increased by 1: \n");
+            Console.Write("----------------------------------------------------------------------------");
+            Console.Write("\n\n");
         }
     }
 }
