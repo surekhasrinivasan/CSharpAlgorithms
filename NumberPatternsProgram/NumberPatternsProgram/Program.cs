@@ -170,6 +170,15 @@ namespace NumberPatternsProgram
                 {
                     Console.Write("" + (j));
                 }
+                Console.WriteLine();
+            }
+            for(int k = 4; k >=0; --k)
+            {
+                for(int j = 1; j <= k; j++)
+                {
+                    Console.Write("" + (k));
+                }
+                Console.WriteLine();
             }
         }
     }
