@@ -150,6 +150,9 @@ namespace NumberPatternsProgram
             Console.Write("Display the pattern like right angle triangle with number increased by 1: \n");
             Console.Write("----------------------------------------------------------------------------");
             Console.Write("\n\n");
+
+            Console.Write("Input number of rows : ");
+            rows = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
