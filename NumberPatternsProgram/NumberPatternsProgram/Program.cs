@@ -202,6 +202,7 @@ namespace NumberPatternsProgram
                 }
                 Console.WriteLine();
             }
+            Console.ReadLine();
         }
     }
 }
