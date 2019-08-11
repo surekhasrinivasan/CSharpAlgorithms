@@ -186,7 +186,10 @@ namespace NumberPatternsProgram
         public static void Main()
         {
             int row, i, j, k;
-            
+            Console.Write("Enter the no. of row you want to print: ");
+            row = Convert.ToInt32(Console.ReadLine());
+
+
         }
     }
 }
