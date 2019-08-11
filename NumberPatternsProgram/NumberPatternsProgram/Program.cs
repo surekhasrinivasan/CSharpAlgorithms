@@ -185,7 +185,8 @@ namespace NumberPatternsProgram
         // Number pattern 8
         public static void Main()
         {
-
+            int row, i, j, k;
+            
         }
     }
 }
