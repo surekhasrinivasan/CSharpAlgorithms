@@ -243,6 +243,7 @@ namespace NumberPatternsProgram
                     Console.Write("*");
                 Console.Write("\n");
             }
+            Console.ReadLine();
         }
     }
 }
