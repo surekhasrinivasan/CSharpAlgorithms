@@ -226,6 +226,7 @@ namespace NumberPatternsProgram
                 i--;
                 Console.WriteLine();
             }
+            Console.Read();
         }
     }
 }
