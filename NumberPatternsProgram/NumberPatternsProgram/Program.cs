@@ -215,6 +215,17 @@ namespace NumberPatternsProgram
         public static void Main()
         {
             int i = 5;
+            while(i >= 1)
+            {
+                int j = 5;
+                while(j >= i)
+                {
+                    Console.Write(j);
+                    j--;
+                }
+                i--;
+                Console.WriteLine();
+            }
         }
     }
 }
