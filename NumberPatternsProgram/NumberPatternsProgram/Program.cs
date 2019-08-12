@@ -206,9 +206,15 @@ namespace NumberPatternsProgram
         //}
 
         // Number pattern 9
+        // Pattern Prints
+        // 5
+        // 54
+        // 543
+        // 5432
+        // 54321
         public static void Main()
         {
-
+            int i = 5;
         }
     }
 }
