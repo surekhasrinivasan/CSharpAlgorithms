@@ -205,28 +205,34 @@ namespace NumberPatternsProgram
         //    Console.ReadLine();
         //}
 
-        // Number pattern 9
-        // Pattern Prints
-        // 5
-        // 54
-        // 543
-        // 5432
-        // 54321
+        //// Number pattern 9
+        //// Pattern Prints
+        //// 5
+        //// 54
+        //// 543
+        //// 5432
+        //// 54321
+        //public static void Main()
+        //{
+        //    int i = 5;
+        //    while(i >= 1)
+        //    {
+        //        int j = 5;
+        //        while(j >= i)
+        //        {
+        //            Console.Write(j);
+        //            j--;
+        //        }
+        //        i--;
+        //        Console.WriteLine();
+        //    }
+        //    Console.Read();
+        //}
+
+        // Number pattern 10
         public static void Main()
         {
-            int i = 5;
-            while(i >= 1)
-            {
-                int j = 5;
-                while(j >= i)
-                {
-                    Console.Write(j);
-                    j--;
-                }
-                i--;
-                Console.WriteLine();
-            }
-            Console.Read();
+
         }
     }
 }
