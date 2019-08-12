@@ -232,6 +232,8 @@ namespace NumberPatternsProgram
         // Number pattern 10
         public static void Main()
         {
+            int i, j, k;
+
 
         }
     }
