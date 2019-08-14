@@ -15,6 +15,9 @@ namespace DetermineSparseMatrix
     {
         static void Main(string[] args)
         {
+            int[,] arr1 = new int[10, 10];
+            int i, j, r, c;
+            int ctr = 0;
 
         }
     }
