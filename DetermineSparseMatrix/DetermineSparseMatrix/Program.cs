@@ -19,6 +19,10 @@ namespace DetermineSparseMatrix
             int i, j, r, c;
             int ctr = 0;
 
+            Console.Write("\n\nDetermine whether a matrix is a sparse matrix : \n");
+            Console.Write("------------------------------------------------------");
+            Console.Write("Input the number of rows of the matrix : ");
+            r = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
