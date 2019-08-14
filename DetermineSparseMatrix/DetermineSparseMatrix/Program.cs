@@ -25,6 +25,8 @@ namespace DetermineSparseMatrix
             r = Convert.ToInt32(Console.ReadLine());
             Console.Write("Input the number of columns of the matrix : ");
             c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input elements in the first matrix : \n");
+
         }
     }
 }
