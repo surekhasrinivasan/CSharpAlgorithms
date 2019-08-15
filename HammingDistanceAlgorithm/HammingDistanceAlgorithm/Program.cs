@@ -13,10 +13,20 @@ namespace HammingDistanceAlgorithm
     // In below example, we will take two strings and if length of strings are not equal then we will show exception 
     // else it will calculate the distance between two strings.
     class Program
+    {        
+        static void Main()
+        {
+            Console.WriteLine(StringDistance.GetHammingDistance("climax", "volmax"));
+            Console.WriteLine(StringDistance.GetHammingDistance("Ram", "Rom"));
+            Console.WriteLine(StringDistance.GetHammingDistance("Mam", "Mom"));
+        }
+    }
+
+    public static class StringDistance
     {
         public static int GetHammingDistance(string s, string t)
         {
-            if(s.Length != t.Length)
+            if (s.Length != t.Length)
             {
                 throw new Exception("Strings must be equal length");
             }
@@ -28,9 +38,5 @@ namespace HammingDistanceAlgorithm
 
             return distance;
         }
-        static void Main(string[] args)
-        {
-
-        }
-    }
+    }    
 }
