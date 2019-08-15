@@ -46,7 +46,7 @@ namespace DetermineSparseMatrix
             {
                 Console.Write("The given matrix is not a sparse matrix. \n");
             }
-            
+            Console.Write("There are {0} number of zeros in the matrix. \n\n", ctr);            
         }
     }
 }
