@@ -20,6 +20,13 @@ namespace HammingDistanceAlgorithm
             {
                 throw new Exception("Strings must be equal length");
             }
+
+            int distance =
+                s.ToCharArray()
+                .Zip(t.ToCharArray(), (c1, c2) => new { c1, c2 })
+                .Count(m => m.c1 != m.c2);
+
+            return distance;
         }
         static void Main(string[] args)
         {
