@@ -20,7 +20,7 @@ namespace DetermineSparseMatrix
             int ctr = 0;
 
             Console.Write("\n\nDetermine whether a matrix is a sparse matrix : \n");
-            Console.Write("------------------------------------------------------");
+            Console.Write("----------------------------------------------------\n");
             Console.Write("Input the number of rows of the matrix : ");
             r = Convert.ToInt32(Console.ReadLine());
             Console.Write("Input the number of columns of the matrix : ");
@@ -38,6 +38,15 @@ namespace DetermineSparseMatrix
                     }
                 }
             }            
+            if(ctr > ((r * c) / 2))
+            {
+                Console.Write("The given matrix is sparse martrix. \n");
+            }
+            else
+            {
+                Console.Write("The given matrix is not a sparse matrix. \n");
+            }
+            
         }
     }
 }
