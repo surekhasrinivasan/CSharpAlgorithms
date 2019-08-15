@@ -14,6 +14,13 @@ namespace HammingDistanceAlgorithm
     // else it will calculate the distance between two strings.
     class Program
     {
+        public static int GetHammingDistance(string s, string t)
+        {
+            if(s.Length != t.Length)
+            {
+                throw new Exception("Strings must be equal length");
+            }
+        }
         static void Main(string[] args)
         {
 
