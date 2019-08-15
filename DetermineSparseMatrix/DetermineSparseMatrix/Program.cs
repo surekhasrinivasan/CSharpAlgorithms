@@ -26,7 +26,18 @@ namespace DetermineSparseMatrix
             Console.Write("Input the number of columns of the matrix : ");
             c = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Input elements in the first matrix : \n");
-
+            for(i = 0; i < r; i++)
+            {
+                for(j = 0; j < c; j++)
+                {
+                    Console.Write("element - [{0}], [{1}] :", i, j);
+                    arr1[i, j] = Convert.ToInt32(Console.ReadLine());
+                    if(arr1[i, j] == 0)
+                    {
+                        ++ctr;
+                    }
+                }
+            }            
         }
     }
 }
