@@ -12,6 +12,15 @@ namespace LevenshteinDistanceAlgorithm
     // The Levenshtein distance between two words is the minimum number of single-character edits 
     // (i.e. insertions, deletions or substitutions) required to change one word into the other.
 
+    public static class StringDistance
+    {
+        // Compute the distance between two strings 
+        public static int LevenshteinDistance(string s, string t)
+        {
+
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
