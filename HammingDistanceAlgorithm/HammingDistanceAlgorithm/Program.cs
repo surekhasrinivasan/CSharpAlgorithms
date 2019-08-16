@@ -16,9 +16,9 @@ namespace HammingDistanceAlgorithm
     {        
         static void Main()
         {
-            Console.WriteLine(StringDistance.GetHammingDistance("climax", "volmax"));
-            Console.WriteLine(StringDistance.GetHammingDistance("Ram", "Rom"));
-            Console.WriteLine(StringDistance.GetHammingDistance("Mam", "Mom"));
+            Console.WriteLine("The distance between two strings is: " + StringDistance.GetHammingDistance("climax", "volmax"));
+            Console.WriteLine("The distance between two strings is: " + StringDistance.GetHammingDistance("Ram", "Rom"));
+            Console.WriteLine("The distance between two strings is: " + StringDistance.GetHammingDistance("Mam", "Mom"));
         }
     }
 
