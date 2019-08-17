@@ -52,6 +52,9 @@ namespace LevenshteinDistanceAlgorithm
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(StringDistance.LevenshteinDistance("climax", "volmax"));
+            Console.WriteLine(StringDistance.LevenshteinDistance("Ram", "Raman"));
+            Console.WriteLine(StringDistance.LevenshteinDistance("Mama", "Mom"));
         }
     }
 }
