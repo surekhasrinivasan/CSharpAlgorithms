@@ -15,8 +15,10 @@ namespace DamerauLevenshteinDistanceAlgorithm
     public static class StringDistance
     {
         public static int GetDamerauLevenshteinDistance(string s, string t)
-        {
+        { 
+            var bounds = new { Height = s.Length + 1, Width = t.Length + 1 };
 
+            int[,] matrix = new int[bounds.Height, bounds.Width];
         }
     }
     
