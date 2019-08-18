@@ -19,6 +19,9 @@ namespace DamerauLevenshteinDistanceAlgorithm
             var bounds = new { Height = s.Length + 1, Width = t.Length + 1 };
 
             int[,] matrix = new int[bounds.Height, bounds.Width];
+
+            for(int height = 0; height < bounds.Height; height++) { matrix[height, 0] = height; };
+            
         }
     }
     
