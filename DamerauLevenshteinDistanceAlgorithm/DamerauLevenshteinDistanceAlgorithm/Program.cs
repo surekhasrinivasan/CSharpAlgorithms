@@ -12,6 +12,14 @@ namespace DamerauLevenshteinDistanceAlgorithm
     // The classical Levenshtein distance only allows insertion, deletion, and substitution operations.Modifying this distance by including 
     // transpositions of adjacent symbols produces a different distance measure, known as the Damerau–Levenshtein distance.
 
+    public static class StringDistance
+    {
+        public static int GetDamerauLevenshteinDistance(string s, string t)
+        {
+
+        }
+    }
+    
     class Program
     {
         static void Main(string[] args)
