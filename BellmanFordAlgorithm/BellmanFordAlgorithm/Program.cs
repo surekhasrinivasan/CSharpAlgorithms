@@ -11,6 +11,13 @@ namespace BellmanFordAlgorithm
     // in a weight graph
     class Program
     {
+        public struct Edge
+        {
+            public int Source;
+            public int Destination;
+            public int Weight;
+        }
+
         static void Main(string[] args)
         {
         }
