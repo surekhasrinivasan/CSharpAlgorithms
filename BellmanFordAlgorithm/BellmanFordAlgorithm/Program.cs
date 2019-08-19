@@ -18,6 +18,13 @@ namespace BellmanFordAlgorithm
             public int Weight;
         }
 
+        public struct Graph
+        {
+            public int VerticesCount;
+            public int EdgesCount;
+            public Edge[] edge;
+        }
+
         static void Main(string[] args)
         {
         }
