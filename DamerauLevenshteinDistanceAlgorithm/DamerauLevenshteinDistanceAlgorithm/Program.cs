@@ -50,7 +50,9 @@ namespace DamerauLevenshteinDistanceAlgorithm
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine(StringDistance.GetDamerauLevenshteinDistance("climax", "volmax"));
+            Console.WriteLine(StringDistance.GetDamerauLevenshteinDistance("Ram", "Rom"));
+            Console.WriteLine(StringDistance.GetDamerauLevenshteinDistance("Mam", "Mom"));
         }
     }
 }
