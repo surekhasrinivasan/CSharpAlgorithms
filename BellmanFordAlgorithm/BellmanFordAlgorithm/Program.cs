@@ -35,6 +35,14 @@ namespace BellmanFordAlgorithm
             return graph;
         }
 
+        private static void Print(int[]distance, int count)
+        {
+            Console.WriteLine("Vertex Distance from source");
+
+            for(int i=0; i< count; i++)
+                Console.WriteLine("{0}\t {1}", i, distance[i]);
+        }
+
         static void Main(string[] args)
         {
         }
