@@ -43,6 +43,15 @@ namespace BellmanFordAlgorithm
                 Console.WriteLine("{0}\t {1}", i, distance[i]);
         }
 
+        public static void BellmanFord(Graph graph, int source)
+        {
+            int verticesCount = graph.VerticesCount;
+            int edgesCount = graph.EdgesCount;
+            int[] distance = new int[verticesCount];
+
+
+        }
+
         static void Main(string[] args)
         {
         }
