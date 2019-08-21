@@ -81,6 +81,10 @@ namespace BellmanFordAlgorithm
         
         static void Main(string[] args)
         {
+            int verticesCount = 5;
+            int edgesCount = 8;
+            Graph graph = CreateGraph(verticesCount, edgesCount);
+
         }
     }
 }
