@@ -67,7 +67,16 @@ namespace BellmanFordAlgorithm
                 }
             }
 
+            for(int i = 0; i < edgesCount; ++i)
+            {
+                int u = graph.edge[i].Source;
+                int v = graph.edge[i].Destination;
+                int weight = graph.edge[i].Weight;
 
+                if (distance[u] != int.MaxValue && distance[u] + weight < distance[v])
+                    Console.WriteLine("Graph contains negative weight cycle");
+            }
+            Print(distance, verticesCount);
         }
         
         static void Main(string[] args)
