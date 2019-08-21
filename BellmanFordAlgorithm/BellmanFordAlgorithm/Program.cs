@@ -49,9 +49,27 @@ namespace BellmanFordAlgorithm
             int edgesCount = graph.EdgesCount;
             int[] distance = new int[verticesCount];
 
+            for (int i = 0; i < verticesCount; i++)
+                distance[i] = int.MaxValue;
+
+            distance[source] = 0;
+
+            for(int i = 1; i <= verticesCount - 1; ++i)
+            {
+                for (int j = 0; j < edgesCount; ++j)
+                {
+                    int u = graph.edge[j].Source;
+                    int v = graph.edge[j].Destination;
+                    int weight = graph.edge[j].Weight;
+
+                    if (distance[u] != int.MaxValue && distance[u] + weight < distance[v])
+                        distance[v] = distance[u] + weight;                    
+                }
+            }
+
 
         }
-
+        
         static void Main(string[] args)
         {
         }
