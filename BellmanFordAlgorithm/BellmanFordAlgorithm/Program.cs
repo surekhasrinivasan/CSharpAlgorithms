@@ -100,6 +100,32 @@ namespace BellmanFordAlgorithm
             graph.edge[2].Destination = 2;
             graph.edge[2].Weight = 3;
 
+            // Edge 1-3
+            graph.edge[3].Source = 1;
+            graph.edge[3].Destination = 3;
+            graph.edge[3].Weight = 2;
+
+            // Edge 1-4
+            graph.edge[4].Source = 1;
+            graph.edge[4].Destination = 4;
+            graph.edge[4].Weight = 2;
+
+            // Edge 3-2
+            graph.edge[5].Source = 3;
+            graph.edge[5].Destination = 2;
+            graph.edge[5].Weight = 5;
+
+            // Edge 3-1
+            graph.edge[6].Source = 3;
+            graph.edge[6].Destination = 1;
+            graph.edge[6].Weight = 1;
+
+            // Edge 4-3
+            graph.edge[7].Source = 4;
+            graph.edge[7].Destination = 3;
+            graph.edge[7].Weight = -3;
+
+            BellmanFord(graph, 0);
         }
     }
 }
