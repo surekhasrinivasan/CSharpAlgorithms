@@ -126,6 +126,8 @@ namespace BellmanFordAlgorithm
             graph.edge[7].Weight = -3;
 
             BellmanFord(graph, 0);
-        }
+
+            Console.ReadLine();
+        }        
     }
 }
