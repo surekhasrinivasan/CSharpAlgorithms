@@ -85,6 +85,21 @@ namespace BellmanFordAlgorithm
             int edgesCount = 8;
             Graph graph = CreateGraph(verticesCount, edgesCount);
 
+            // Edge 0-1
+            graph.edge[0].Source = 0;
+            graph.edge[0].Destination = 1;
+            graph.edge[0].Weight = -1;
+
+            // Edge 0-2
+            graph.edge[1].Source = 0;
+            graph.edge[1].Destination = 2;
+            graph.edge[1].Weight = 4;
+
+            // Edge 1-2
+            graph.edge[2].Source = 1;
+            graph.edge[2].Destination = 2;
+            graph.edge[2].Weight = 3;
+
         }
     }
 }
