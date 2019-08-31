@@ -15,7 +15,18 @@ namespace LambdaExpressionExample
 
         public static void DoWork(int intnumber1)
         {
+            int intnumber2 = 2;
 
+            Action<int> action = (num) =>
+            {
+                for (int i = num; i < num + (intnumber1 * intnumber2); i++)
+                {
+                    int result = i * 3 - 1;
+                    Console.WriteLine(string.Format("{0}, {1}", i, result));
+
+                }
+            };
+            action(9);
         }
     }
 }
