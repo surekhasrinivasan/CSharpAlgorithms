@@ -12,5 +12,10 @@ namespace LambdaExpressionExample
         static void Main(string[] args)
         {
         }
+
+        public static void DoWork(int intnumber1)
+        {
+
+        }
     }
 }
