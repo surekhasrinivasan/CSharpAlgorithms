@@ -11,6 +11,8 @@ namespace LambdaExpressionExample
     {
         static void Main(string[] args)
         {
+            DoWork(6);
+            Console.ReadLine();
         }
 
         public static void DoWork(int intnumber1)
