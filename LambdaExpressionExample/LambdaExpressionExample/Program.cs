@@ -39,6 +39,10 @@ namespace LambdaExpressionExample
         {
             int localVariable = 100;
 
+            Action<int> addmethod = i => localVariable += i;
+
+
+
         }
     }
 }
