@@ -41,8 +41,9 @@ namespace LambdaExpressionExample
 
             Action<int> addmethod = i => localVariable += i;
 
-
-
+            Console.WriteLine(string.Format("local at start: {0}", localVariable));
+            addmethod(63);
+            Console.WriteLine(string.Format("after calling adder, local: {0}", localVariable));
         }
     }
 }
