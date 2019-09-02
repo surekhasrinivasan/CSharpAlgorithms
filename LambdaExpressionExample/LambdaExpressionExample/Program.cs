@@ -33,5 +33,12 @@ namespace LambdaExpressionExample
     //}
 
     // Program to modify local variables using Lambda Expression
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int localVariable = 100;
 
+        }
+    }
 }
