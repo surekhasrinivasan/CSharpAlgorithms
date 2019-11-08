@@ -12,6 +12,13 @@ namespace DelegateInCSharpExample
 {
     class Program
     {
+        static int num = 10;
+        public static int AddNum(int p)
+        {
+            num += p;
+            return num;
+        }
+
         static void Main(string[] args)
         {
         }
