@@ -19,6 +19,17 @@ namespace DelegateInCSharpExample
             return num;
         }
 
+        public static int MultNum(int q)
+        {
+            num *= q;
+            return num;
+        }
+
+        public static int getNum()
+        {
+            return num;
+        }
+
         static void Main(string[] args)
         {
         }
